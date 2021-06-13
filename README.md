@@ -19,7 +19,7 @@ For now dark mode is **required** for the theme to work.
 
 🍴 [Lovely Forks](https://github.com/musically-ut/lovely-forks) | Shows notable forks of GitHub projects
 
-🕴️ [Hide Files](https://github.com/sindresorhus/hide-files-on-github) | Hides nonsensical files on github
+🕴️ [Hide Files](https://github.com/sindresorhus/hide-files-on-github) | Hides nonessential files on github
 
 
 ## 👤 Author
