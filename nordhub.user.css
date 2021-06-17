@@ -403,7 +403,7 @@ a > .css-truncate, .follow-list .follow-list-info {
     border: none;
 }
 
-.signed-commit-badge.verified {
+.signed-commit-badge.verified, .signed-commit-verified-label, .signed-commit-header .octicon-verified {
     color: var(--green)
 }
 
@@ -623,6 +623,29 @@ a > .css-truncate, .follow-list .follow-list-info {
 
 .form-select {
     background-color: var(--bg);
-  }
-.hx_page-header-bg { background-color: transparent; } [data-color-mode] { color: var(--color-text-primary); background-color: transparent; } 
+}
+
+.branch-action-body {
+    background: var(--bg);
+    border: none;
+}
+
+.merge-branch-description {
+    color: var(--text-color)
+}
+
+.hx_page-header-bg {
+    background: var(--bg);
+}
+
+.user-status-circle-badge {
+    background-color: var(--bg-light) !important;
+    box-shadow: none !important;
+}
+
+.delete-topic-button, .topic-tag, .topic-tag-action {
+    background: var(--accent);
+    color: var(--text-color);
+    border: none;
+    }
 }
