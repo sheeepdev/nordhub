@@ -624,4 +624,5 @@ a > .css-truncate, .follow-list .follow-list-info {
 .form-select {
     background-color: var(--bg);
   }
+.hx_page-header-bg { background-color: transparent; } [data-color-mode] { color: var(--color-text-primary); background-color: transparent; } 
 }
