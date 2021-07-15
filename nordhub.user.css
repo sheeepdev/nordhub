@@ -648,4 +648,119 @@ a > .css-truncate, .follow-list .follow-list-info {
     color: var(--text-color);
     border: none;
     }
+    .review-thread-reply {
+    background: var(--bg);
+}
+
+.color-bg-info-inverse {
+    background: var(--accent) !important;
+    border-bottom-right-radius: 20px;
+}
+
+.commit .commit-title .issue-link {
+    color: var(--accent);
+}
+
+.rgh-conflict-marker svg {
+    color: var(--red);
+}
+
+.BorderGrid-cell {
+    border: none;
+}
+
+.flash > a {
+    color: var(--text-color);
+    border-bottom: 1px solid var(--text-color);
+}
+
+.flash > a:hover {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.SideNav-item {
+    background: var(--bg-light);
+    border: none;
+}
+
+.SideNav-item:hover, .SideNav-item[aria-current]:not([aria-current="false"]), .SideNav-item[aria-selected="true"] {
+    background: var(--bg-lightest)
+}
+
+.SideNav-item[aria-current]:not([aria-current="false"])::before, .SideNav-item[aria-selected="true"]::before {
+    background: var(--accent);
+}
+
+.flex-shrink-0.col-12.col-md-3.mb-4.mb-md-0 {
+    border-radius: 20px !important;
+}
+
+.color-text-inverse, .btn-link:disabled, .btn-link:disabled:hover, .btn-link[aria-disabled="true"], .btn-link[aria-disabled="true"]:hover, .discussion-sidebar-heading {
+    color: var(--text-color) !important;
+}
+
+.markdown-body img {
+    border-radius: 20px;
+}
+
+.discussion-sidebar-item + .discussion-sidebar-item {
+    border: none;
+}
+
+.avatar {
+    box-shadow: none;
+}
+
+a.rgh-highest-rated-comment, .rgh-highest-rated-comment {
+    border: 2px solid var(--green) !important;
+}
+
+.avatar {
+    background: var(--bg-light) !important;
+}
+
+.text-right.hide-lg.hide-md.hide-sm.hide-xs.mt-2 > .tooltipped.tooltipped-s > svg > g > rect[style*=fill] {
+    fill: var(--green) !important;
+}
+
+.text-right.hide-lg.hide-md.hide-sm.hide-xs > .tooltipped.tooltipped-s > svg > g > rect[style*=fill] {
+    fill: var(--green) !important;
+}
+
+.tree-browser-result[aria-selected="true"] .octicon-chevron-right, .tree-browser-result mark {
+    color: var(--accent)
+}
+
+.tree-browser-result[aria-selected="true"] {
+    background: var(--bg-light) !important;
+    border-radius: 20px;
+}
+
+.Box-body.p-0.blob-wrapper.data.type-rust.gist-border-0.rgh-linkified-code {
+    background: var(--bg-light)
+}
+
+.BtnGroup-item:first-child {
+    border-radius: 20px;
+}
+
+.BtnGroup-item:last-child {
+    border-radius: 20px;
+    margin-left: 8px;
+}
+
+.rgh-hide-watch-and-fork-count details:not([open]) .btn[data-ga-click^="Repository, click Watch"] {
+    border-radius: 20px !important;    
+}
+
+.social-count, #sponsor-button-repo, .rgh-hide-watch-and-fork-count details:not([open]) .btn[data-ga-click^="Repository, click Watch"] {
+    border-bottom-right-radius: 20px !important;
+    border-top-right-radius: 20px;
+}
+
+.btn.btn-sm.btn-with-count, #sponsor-button-repo {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    }
 }
