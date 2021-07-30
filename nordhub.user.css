@@ -31,6 +31,7 @@
 
 body {
     background: var(--bg);
+    min-height: 100vh;
 }
 
 .Box, .color-bg-primary, .gh-header, .orghead, .Box-row--gray {
@@ -57,6 +58,10 @@ body {
 
 a {
     color: var(--accent)
+}
+    
+a.no-underline {
+  color: var(--text-color);
 }
 
 .Header, .color-bg-secondary, .timeline-comment, .timeline-comment-header, .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow, .header-search-wrapper, .jump-to-field-active, .color-bg-tertiary, .color-bg-canvas-inset, .markdown-body img, .rgh-clean-dashboard .js-news-feed-event-group, .rgh-clean-dashboard .dashboard .flex-items-baseline.py-3 {
