@@ -639,7 +639,7 @@ a > .css-truncate, .follow-list .follow-list-info {
 }
 
 .user-status-circle-badge {
-    background-color: var(--bg-light) !important;
+    background-color: var(--bg-lightest) !important;
     box-shadow: none !important;
 }
 
@@ -647,8 +647,9 @@ a > .css-truncate, .follow-list .follow-list-info {
     background: var(--accent);
     color: var(--text-color);
     border: none;
-    }
-    .review-thread-reply {
+}
+
+.review-thread-reply {
     background: var(--bg);
 }
 
@@ -762,5 +763,34 @@ a.rgh-highest-rated-comment, .rgh-highest-rated-comment {
 .btn.btn-sm.btn-with-count, #sponsor-button-repo {
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
+}
+
+.CheckRun, .CheckRunContainer {
+    background: var(--bg);
+}
+
+.Box-header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.markdown-body table tr, .markdown-body table tr:nth-child(2n) {
+    background: var(--bg-light)
+}
+
+.markdown-body table tr, .markdown-body table td, .markdown-body table th {
+    border: none;
+}
+
+.markdown-body table {
+    border-radius: 20px;
+}
+
+.UnderlineNav {
+    box-shadow: none;   
+}
+
+.no-underline {
+    color: var(--text-color)
     }
 }
