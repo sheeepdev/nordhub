@@ -797,5 +797,17 @@ a.rgh-highest-rated-comment, .rgh-highest-rated-comment {
 
 .no-underline {
     color: var(--text-color)
+}
+    
+.timeline-comment--caret::after, .timeline-comment--caret::before, .commit-form::after, .commit-form::before {
+    display: none !important;
+}
+
+.TimelineItem-avatar {
+    left: -57px;
+}
+
+.commit-form-avatar {
+    margin-left: -54px;        
     }
 }
