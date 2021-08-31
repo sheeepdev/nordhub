@@ -868,5 +868,8 @@ a.rgh-highest-rated-comment, .rgh-highest-rated-comment {
 
 .color-bg-info {
     background: var(--accent-light)
+}
+    .flex-1.d-flex.flex-items-center.ml-3.min-width-0 {
+    background: var(--bg-light)
     }
 }
