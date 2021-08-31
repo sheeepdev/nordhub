@@ -31,6 +31,7 @@
 
 body {
     background: var(--bg);
+    color: var(--text-color);
     min-height: 100vh;
 }
 
@@ -58,10 +59,6 @@ body {
 
 a {
     color: var(--accent)
-}
-    
-a.no-underline {
-  color: var(--text-color);
 }
 
 .Header, .color-bg-secondary, .timeline-comment, .timeline-comment-header, .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow, .header-search-wrapper, .jump-to-field-active, .color-bg-tertiary, .color-bg-canvas-inset, .markdown-body img, .rgh-clean-dashboard .js-news-feed-event-group, .rgh-clean-dashboard .dashboard .flex-items-baseline.py-3 {
@@ -795,10 +792,10 @@ a.rgh-highest-rated-comment, .rgh-highest-rated-comment {
     box-shadow: none;   
 }
 
-.no-underline {
+.no-underline, a.no-underline {
     color: var(--text-color)
 }
-    
+
 .timeline-comment--caret::after, .timeline-comment--caret::before, .commit-form::after, .commit-form::before {
     display: none !important;
 }
@@ -807,7 +804,69 @@ a.rgh-highest-rated-comment, .rgh-highest-rated-comment {
     left: -57px;
 }
 
-.commit-form-avatar {
-    margin-left: -54px;        
+.pr-toolbar.is-stuck {
+    background: var(--bg);
+}
+
+.color-text-link, .color-icon-info {
+    color: var(--accent) !important;
+}
+
+.color-icon-secondary {
+    color: var(--text-color) !important;
+}
+
+.tabnav-tab, .tabnav-tab .octicon {
+    color: var(--text-color)
+}
+
+.file-navigation-option .input-group .form-control {
+    background: var(--bg-light  )
+}
+
+.note, .breadcrumb-item-selected, .breadcrumb-item[aria-current]:not([aria-current="false"]) {
+    color: var(--text-color)
+}
+
+.social-reaction-summary-item:hover {
+    background: var(--bg-lightest)
+}
+
+.social-reaction-summary-item {
+    background: var(--bg-lighter)
+}
+
+.timeline-comment-label {
+    background: var(--accent)
+}
+
+.color-yellow-7 {
+    color: var(--yellow) !important;
+}
+
+.p-2.mt-n1.mb-n1.ml-n1.btn.btn-octicon.js-wiki-sidebar-toc-toggle-chevron-button {
+    background: var(--bg-light);
+}
+
+.filter-bar {
+    background: var(--bg-light);
+    border: none;
+}
+
+.Box-row.px-2.py-2 {
+    background: var(--bg-light);
+}
+
+.Box-row:last-of-type {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.flex-1.min-width-0 {
+    background: var(--bg);
+}
+
+.color-bg-info {
+    background: var(--accent-light)
     }
 }
