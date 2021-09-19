@@ -8,7 +8,7 @@ The only thing you need to have installed before trying to install nordhub is th
 
 For now dark mode is **required** for the theme to work.
 
-[Click here to install nordhub](https://git.sheepdev.xyz/sheep/nordhub/raw/branch/main/nordhub.user.css)
+[Click here to install nordhub](https://github.com/sheeepdev/nordhub/raw/main/nordhub.user.css)
 
 
 ## 🎨 Recommended extensions and styles
