@@ -703,10 +703,6 @@ a > .css-truncate, .follow-list .follow-list-info {
     color: var(--text-color) !important;
 }
 
-.markdown-body img {
-    border-radius: 20px;
-}
-
 .discussion-sidebar-item + .discussion-sidebar-item {
     border: none;
 }
