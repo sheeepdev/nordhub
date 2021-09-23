@@ -30,65 +30,79 @@
 
 /* Gitako Sidebar Support */
 .files > div {
-	background: var(--bg);
+    background: var(--bg);
     color: var(--text-color);
 }
+
 .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header {
-	background: var(--bg-lighter);
+    background: var(--bg-lighter);
     color: var(--text-color);
 }
+
 .node-item {
-	background: var(--bg) !important;
+    background: var(--bg) !important;
     color: var(--text-color) !important;
 }
+
 .gitako-side-bar a {
-	background: var(--bg-lighter) !important;
+    background: var(--bg-lighter) !important;
     color: var(--accent) !important;
 }
+
 .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar .header-row {
-	background: var(--bg-light) !important;
+    background: var(--bg-light) !important;
     color: var(--text-color) !important;
 }
+
 .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .search-input-wrapper .search-input {
-	background: var(--bg-light) !important;
+    background: var(--bg-light) !important;
     color: var(--text-color) !important;
 }
+
 .gitako-side-bar .octicon {
-	color: var(--text-color) !important;
+    color: var(--text-color) !important;
 }
+
 .file-explorer {
-	background: var(--bg) !important;
+    background: var(--bg) !important;
     color: var(--text-color) !important;
 }
+
 .gitako-side-bar button {
-	background: var(--bg-light) !important;
+    background: var(--bg-light) !important;
     color: var(--text-color) !important;
-	border: none !important;
+    border: none !important;
 }
+
 .gitako-side-bar button:hover {
-	background: var(--bg) !important;
+    background: var(--bg) !important;
     color: var(--text-color) !important;
-	border: none !important;
+    border: none !important;
 }
+
 /* Gitako Settings */
 .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar-content .shadow-shelter {
-	background: var(--bg-lighter) !important;
+    background: var(--bg-lighter) !important;
 }
+
 .gitako-settings-bar-title {
-	background: var(--bg-lighter) !important;
+    background: var(--bg-lighter) !important;
     color: var(--text-color) !important;
 }
+
 .gitako-settings-bar-content {
-	background: var(--bg-lighter) !important;
+    background: var(--bg-lighter) !important;
     color: var(--text-color) !important;
 }
+
 .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar .toggle-shortcut-input-control .toggle-shortcut-input,
 .gitako-side-bar .gitako-side-bar-body .gitako-settings-bar .access-token-input-control .access-token-input,
 .gitako-side-bar select  {
-	background: var(--bg) !important;
+    background: var(--bg) !important;
     color: var(--text-color) !important;
 }
+
 .gitako-side-bar input {
-	background: var(--bg) !important;
+    background: var(--bg) !important;
     color: var(--text-color) !important;
 }
