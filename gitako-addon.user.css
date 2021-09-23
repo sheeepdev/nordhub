@@ -1,0 +1,94 @@
+/* ==UserStyle==
+@name         gitako nord
+@description  support for gitako in nordhub
+@namespace    https://github.com/sheeepdev/nordhub
+@homepageURL  https://github.com/sheeepdev/nordhub
+@supportURL   https://github.com/sheeepdev/nordhub/issues
+@updateURL    https://github.com/sheeepdev/nordhub/raw/main/gitako-addon.user.css
+@author       TheRealGWJosh <malava.pete.joshua@gmail.com> (https://github.com/TheRealGWJosh)
+@version      1.0.0
+@license      CC-BY-4.0
+==/UserStyle== */
+
+:root {
+    --bg: #2e3340;
+    --bg-light: #3b4252;
+    --bg-lighter: #434c5e; 
+    --bg-lightest: #4c556a;
+    --bg-transparent: #2e3340f1;
+    --accent: #5e81ac;
+    --accent-light: #81a1c1;
+    --accent-lighter: #88c0d0;
+    --accent-lightest: #8fbcbb;
+    --text-color: #d8dee9;
+    --white: #d4d7db;
+    --green: #a3be8c;
+    --orange: #d08770;    
+    --red: #bf616a;
+}
+
+
+/* Gitako Sidebar Support */
+.files > div {
+	background: var(--bg);
+    color: var(--text-color);
+}
+.gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .header {
+	background: var(--bg-lighter);
+    color: var(--text-color);
+}
+.node-item {
+	background: var(--bg) !important;
+    color: var(--text-color) !important;
+}
+.gitako-side-bar a {
+	background: var(--bg-lighter) !important;
+    color: var(--accent) !important;
+}
+.gitako-side-bar .gitako-side-bar-body .gitako-settings-bar .header-row {
+	background: var(--bg-light) !important;
+    color: var(--text-color) !important;
+}
+.gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .search-input-wrapper .search-input {
+	background: var(--bg-light) !important;
+    color: var(--text-color) !important;
+}
+.gitako-side-bar .octicon {
+	color: var(--text-color) !important;
+}
+.file-explorer {
+	background: var(--bg) !important;
+    color: var(--text-color) !important;
+}
+.gitako-side-bar button {
+	background: var(--bg-light) !important;
+    color: var(--text-color) !important;
+	border: none !important;
+}
+.gitako-side-bar button:hover {
+	background: var(--bg) !important;
+    color: var(--text-color) !important;
+	border: none !important;
+}
+/* Gitako Settings */
+.gitako-side-bar .gitako-side-bar-body .gitako-settings-bar-content .shadow-shelter {
+	background: var(--bg-lighter) !important;
+}
+.gitako-settings-bar-title {
+	background: var(--bg-lighter) !important;
+    color: var(--text-color) !important;
+}
+.gitako-settings-bar-content {
+	background: var(--bg-lighter) !important;
+    color: var(--text-color) !important;
+}
+.gitako-side-bar .gitako-side-bar-body .gitako-settings-bar .toggle-shortcut-input-control .toggle-shortcut-input,
+.gitako-side-bar .gitako-side-bar-body .gitako-settings-bar .access-token-input-control .access-token-input,
+.gitako-side-bar select  {
+	background: var(--bg) !important;
+    color: var(--text-color) !important;
+}
+.gitako-side-bar input {
+	background: var(--bg) !important;
+    color: var(--text-color) !important;
+}
