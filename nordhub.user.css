@@ -880,5 +880,21 @@ a.rgh-highest-rated-comment, .rgh-highest-rated-comment {
 
 .SelectMenu-item, .SelectMenu-header {
     border: none;
+}
+    
+.CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like, .cm-s-github-light .CodeMirror-linenumber, .btn-link.code.px-3.px-sm-6.px-lg-3.flex-1.flex-md-auto.selected.tabnav-tab.js-blob-edit-code.js-blob-edit-tab, .blob-num, .blob-code-inner {
+    background: var(--bg-light) !important;
+}
+
+.btn-link.code.px-3.px-sm-6.px-lg-3.flex-1.flex-md-auto.selected.tabnav-tab.js-blob-edit-code.js-blob-edit-tab {
+    border-top-left-radius: 20px;
+}
+
+.commit-create .CodeMirror {
+    padding-top: 0;
+}
+
+.blob-num {
+    color: var(--text-color)
     }    
 }
