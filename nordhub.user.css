@@ -865,7 +865,20 @@ a.rgh-highest-rated-comment, .rgh-highest-rated-comment {
 .color-bg-info {
     background: var(--accent-light)
 }
-    .flex-1.d-flex.flex-items-center.ml-3.min-width-0 {
+    
+.flex-1.d-flex.flex-items-center.ml-3.min-width-0 {
     background: var(--bg-light)
-    }
+}
+
+.commit-ref, .vcard-detail .octicon {
+    color: var(--text-color)
+}
+
+.activity-overview-label, .activity-overview-percentage {
+    fill: var(--text-color)
+}
+
+.SelectMenu-item, .SelectMenu-header {
+    border: none;
+    }    
 }
