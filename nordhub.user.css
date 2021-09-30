@@ -896,5 +896,8 @@ a.rgh-highest-rated-comment, .rgh-highest-rated-comment {
 
 .blob-num {
     color: var(--text-color)
-    }    
 }
+    
+.rgh-clean-dashboard .news > .f4 + div, .rgh-clean-dashboard .dashboard-rollup-items .body {
+    border: none !important;
+}    
