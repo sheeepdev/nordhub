@@ -900,5 +900,63 @@ a.rgh-highest-rated-comment, .rgh-highest-rated-comment {
     
 .rgh-clean-dashboard .news > .f4 + div, .rgh-clean-dashboard .dashboard-rollup-items .body {
     border: none !important;
-    }
+}
+.gisthead {
+    background: var(--bg);
+}
+
+.user-mention {
+    background: transparent !important;
+    color: var(--text-color) !important;
+}
+
+.rgh-clean-pinned-issues .pinned-issue-item, .rgh-clean-pinned-issues .js-pinned-issues-reorder-list {
+    box-shadow: none !important;
+}
+
+#js-issues-toolbar {
+    border-radius: 20px;
+}
+
+#repository-container-header[style*=background-color] {
+    background-color: var(--bg) !important;
+}
+
+.color-bg-default {
+    background-color: var(--bg) !important;
+}
+
+.color-bg-success-emphasis {
+    background-color: var(--accent) !important;
+}
+
+.color-fg-muted, .TimelineItem-body {
+    color: var(--text-color) !important;
+}
+
+.d-inline-flex.flex-row.flex-items-center.text-small > span > svg > circle[style*=stroke] {
+    stroke: var(--accent) !important;
+}
+
+.avatar {
+    border-radius: 20px;
+}
+
+.position-absolute.right-0.left-0.bottom-0.text-center[style*=background], .color-bg-subtle {
+    background: var(--bg) !important;
+}
+
+.copyable-terminal {
+    background: var(--bg-light);
+    border-radius: 20px;
+}
+
+.flash > a {
+    padding: 5px 16px;
+    border-radius: 100px;
+}
+
+.blob-code-inner.blob-code-marker.rgh-observing-whitespace {
+    background: transparent !important;
+    }    
 }
